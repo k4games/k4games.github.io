@@ -98,8 +98,41 @@
 <h1 class="dot two">.</h1>
 <h1 class="dot three">.</h1>
 </div>
-<script src="https://gamespluto.github.io/games/subway-surfers-tokyo/js/loading.js"></script>
-<script src="https://gamespluto.github.io/games/subway-surfers-tokyo/js/boot.js"></script>
+    <script type="text/javascript">
+        function google_analytics() {
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+                sdk.showBanner();
+            }
+        };
+
+        function google_analytics_ID() {
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+                sdk.showBanner();
+            }
+        };
+        setTimeout(function() {
+            google_analytics();
+        }, 1000);
+        setInterval(function() {
+            google_analytics_ID();
+        }, 90000);
+    </script>
+<script src="js/boot.js"></script>
+<script>
+(function (a, b, c) {
+   var d = a.getElementsByTagName(b)[0];
+   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
+})(document, "script", "gamemonetize-preload-api");
+</script>
+
+
+</body>
+<div id="moreg" style="width:100px;height:100px;z-index:0;position:absolute;bottom:455px;left:2%"><a target="_blank" href="https://zazgames.com" title="More Games"><script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"8bf7a949e19ae5c0704e724df7eb34f41339bf1e-1635007395-31536000"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
 </body>
 
 </html>
